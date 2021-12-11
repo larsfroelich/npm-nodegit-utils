@@ -1,0 +1,36 @@
+{
+  "name": "npm-nodegit-utils",
+  "version": "0.0.0",
+  "description": "Utility wrapper for nodegit, providing higher level abstractions for interactions with git-repositories.",
+  "files": [
+    "/dist",
+    "/src"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlfpx/npm-nodegit-utils.git"
+  },
+  "keywords": [
+    "nodegit",
+    "git",
+    "versioncontrol"
+  ],
+  "author": "Lars Froelich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xlfpx/npm-nodegit-utils/issues"
+  },
+  "homepage": "https://github.com/xlfpx/npm-nodegit-utils#readme",
+  "dependencies": {
+    "nodegit": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/nodegit": "^0.27.6"
+  }
+}

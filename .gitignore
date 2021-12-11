@@ -1,0 +1,8 @@
+# ignore compiled js files in git
+dist
+
+# ignore jetbrains-IDE files
+.idea
+
+# ignore npm modules
+node_modules
